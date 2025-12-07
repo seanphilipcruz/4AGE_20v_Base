@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Dec 07 23:59:59 PHT 2025"/>
+<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Dec 08 06:42:37 SGT 2025"/>
 <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2025.01.6" nPages="15" signature="speeduino 202501"/>
 <page>
 <pcVariable digits="0" name="rpmhigh" units="rpm">9000.0</pcVariable>
@@ -543,10 +543,10 @@
          92.0 
       </constant>
 <constant cols="1" digits="1" name="primePulse" rows="4" units="ms">
-         8.0 
-         6.0 
          4.0 
          3.0 
+         2.5 
+         1.5 
       </constant>
 <constant cols="1" digits="0" name="primeBins" rows="4" units="C">
          0.0 
@@ -813,9 +813,9 @@
          100.0 
       </constant>
 <constant cols="1" digits="0" name="cltAdvValues" rows="6" units="deg">
+         10.0 
          8.0 
-         6.0 
-         4.0 
+         5.0 
          2.0 
          0.0 
          0.0 
