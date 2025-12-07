@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Sun Dec 07 11:19:19 SGT 2025
-#Sun Dec 07 11:19:19 SGT 2025
+#Last Saved on: Sun Dec 07 23:28:12 PHT 2025
+#Sun Dec 07 23:28:12 PHT 2025
 LaunchControlLaunch\ Control\ /\ Flat\ shift_Y=244
 LaunchControlLaunch\ Control\ /\ Flat\ shift_X=663
 prgm_out_configProgrammable\ outputs_width=417
@@ -28,19 +28,19 @@ fuelTable2DialogFuel\ Table\ 2_width=561
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
 wmiSettingsWMI\ Control_height=876
 sparkSettingsSpark\ Settings_height=497
-warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_Y=242
-warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_X=480
+warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_Y=198
+warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_X=158
 veTableDialogVE\ Table_width=822
 injector_timing_curve_Set\ X\ Axis\ Minimum=0.0
 engine_constantsEngine\ Constants_Y=202
 engine_constantsEngine\ Constants_X=544
 engine_constantsEngine\ Constants_width=562
-ASEAfterstart\ Enrichment(ASE)_height=948
+ASEAfterstart\ Enrichment(ASE)_height=810
 baroFuel_curveBaro\ fuel\ correction_width=454
 airConAir\ Conditioning_height=681
 iat_retard_curveIAT\ timing\ retard_height=328
 revLimiterDialogRev\ Limiter_height=516
-veTableDialogVE\ Table_Y=136
+veTableDialogVE\ Table_Y=44
 veTableDialogVE\ Table_X=439
 idleUpSettingsIdle\ Up\ Settings_width=318
 vvtTblVVT\ control\ Table_Y=373
@@ -83,9 +83,9 @@ lambdaTable1TblLambda\ Table_X=501
 wmiSettingsWMI\ Control_width=487
 sparkMap3DIgnition\ Advance\ Table_height=528
 CommSettingCom\ Port=/dev/cu.usbmodem14401
-refTable_000_txtTemp3=99.0
-refTable_000_txtTemp2=30.0
-refTable_000_txtTemp1=-40.0
+refTable_000_txtTemp3=100
+refTable_000_txtTemp2=40
+refTable_000_txtTemp1=0
 veTable1Map3DVE\ Table_Y=201
 veTable1Map3DVE\ Table_X=711
 airdensity_curveIAT\ density\ correction_width=502
@@ -93,7 +93,7 @@ refTable_001_chkFahrenheit=false
 afrTable1Map3DAFR\ Table_height=528
 sensorFiltersAnalog\ sensor\ filters_Y=254
 sensorFiltersAnalog\ sensor\ filters_X=580
-accelEnrichmentsAcceleration\ Enrichment_Y=112
+accelEnrichmentsAcceleration\ Enrichment_Y=25
 accelEnrichmentsAcceleration\ Enrichment_X=127
 dwell_correction_curveDwell\ voltage\ correction_height=346
 boostSettingsBoost\ Control_height=779
@@ -104,7 +104,7 @@ sparkTblIgnition\ Advance\ Table_height=598
 refTable_001_txtTemp3=99.0
 refTable_001_txtTemp2=30.0
 refTable_001_txtTemp1=-40.0
-tuneFileDir=C\:\\Users\\sean.cruz\\Documents\\TunerStudioProjects\\4AGE-20v-ST-Tune
+tuneFileDir=/Users/seanphilipcruz/TunerStudioProjects/4AGE20v_Base
 refTable_000_chkCelsius=true
 fuelpumpFuel\ pump_height=191
 fuelTable2DialogFuel\ Table\ 2_height=653
@@ -112,10 +112,10 @@ knockSettingsKnock\ Settings_width=620
 iat_retard_curveIAT\ timing\ retard_width=358
 selectedComDriver=Multi Interface MegaSquirt Driver
 vvtSettingsVVT\ Control_width=642
-idleAdvanceSettingsIdle\ Advance\ Settings_Y=139
+idleAdvanceSettingsIdle\ Advance\ Settings_Y=146
 knockSettingsKnock\ Settings_height=452
 vvtTblVVT\ control\ Table_width=366
-idleAdvanceSettingsIdle\ Advance\ Settings_X=375
+idleAdvanceSettingsIdle\ Advance\ Settings_X=114
 idleSettingsIdle\ Settings_height=732
 airConAir\ Conditioning_width=389
 logFileDir=/Users/seanphilipcruz/TunerStudioProjects/4AGE20v/DataLogs
@@ -124,12 +124,12 @@ ecuConfigFile=mainController.ini
 tachoTacho_height=284
 vvtMap3DVVT\ control\ Table_width=800
 engine_constantsEngine\ Constants_height=645
-accelEnrichmentsAcceleration\ Enrichment_height=808
+accelEnrichmentsAcceleration\ Enrichment_height=798
 ecuUid=9dc4942b-b4f6-4668-ad75-529a57bc6dec
-refTable_000_txtResistor3=156.0
+refTable_000_txtResistor3=180
 flexFuelFuel\ Sensor\ Settings_height=662
-refTable_000_txtResistor2=2268.0
-refTable_000_txtResistor1=101890.0
+refTable_000_txtResistor2=1200
+refTable_000_txtResistor1=5900
 idleAdvanceSettingsIdle\ Advance\ Settings_width=1276
 cranking_enrich_curve_showText=true
 airdensity_curve_showText=true
@@ -147,10 +147,7 @@ iacPwmCrank_curveIAC\ PWM\ Cranking\ Duty_height=373
 idleSettingsIdle\ Settings_X=664
 injCharsInjector\ Characteristics_height=724
 refTable_001_txtBiasResistor=2490.0
-<<<<<<< Updated upstream
 CommSettingMSCommDriver.controllerInterfaceId=RS232 Serial Interface
-=======
->>>>>>> Stashed changes
 afrTable1TblAFR\ Table_width=1002
 iacClosedLoop_curveIdle\ RPM\ Targets_Y=350
 iacClosedLoop_curveIdle\ RPM\ Targets_X=615
@@ -162,7 +159,7 @@ sparkSettingsSpark\ Settings_width=669
 crankPWCranking\ Settings_width=517
 flexFuelFuel\ Sensor\ Settings_Y=170
 flexFuelFuel\ Sensor\ Settings_X=424
-ASEAfterstart\ Enrichment(ASE)_width=655
+ASEAfterstart\ Enrichment(ASE)_width=831
 io_summaryI/O\ Summary_Y=118
 io_summaryI/O\ Summary_X=680
 dwellSettingsDwell\ Settings_width=327
@@ -232,11 +229,7 @@ revLimiterDialogRev\ Limiter_Y=243
 refTable_001_txtResistor2=2268.0
 revLimiterDialogRev\ Limiter_X=703
 refTable_001_txtResistor1=101890.0
-<<<<<<< Updated upstream
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=COM3
-=======
-CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/cu.usbmodem14101
->>>>>>> Stashed changes
 iacPwm_curveIAC\ PWM\ Duty_height=393
 iacPwm_curveIAC\ PWM\ Duty_width=550
 gaugeLimitsGauge\ Limits_width=276
@@ -245,7 +238,7 @@ iacPwmCrank_curveIAC\ PWM\ Cranking\ Duty_X=881
 vvtTblVVT\ control\ Table_height=255
 injCharsInjector\ Characteristics_Y=131
 injCharsInjector\ Characteristics_X=649
-crankPWCranking\ Settings_Y=167
+crankPWCranking\ Settings_Y=166
 io_summaryI/O\ Summary_width=320
 sparkSettingsSpark\ Settings_Y=245
 crankPWCranking\ Settings_X=589
@@ -255,15 +248,11 @@ tachoTacho_X=697
 idle_advance_curve_showText=true
 canId=-1
 pressureSensorsPressure\ Transducers_width=442
-<<<<<<< Updated upstream
 commPort=COM3
-=======
-commPort=/dev/cu.usbmodem14101
->>>>>>> Stashed changes
 sensorFiltersAnalog\ sensor\ filters_height=489
 iacClosedLoop_curveIdle\ RPM\ Targets_height=394
-ASEAfterstart\ Enrichment(ASE)_Y=25
-ASEAfterstart\ Enrichment(ASE)_X=579
+ASEAfterstart\ Enrichment(ASE)_Y=45
+ASEAfterstart\ Enrichment(ASE)_X=537
 baudRate=115200
 warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_width=720
 afrTable1TblAFR\ Table_Y=167
@@ -271,7 +260,7 @@ refTable_000_chkFahrenheit=false
 afrTable1TblAFR\ Table_X=329
 vvtMap3DVVT\ control\ Table_height=528
 baroFuel_curve_showText=true
-projectName=4AGE-20v-ST-Tune
+projectName=4AGE20v_Base
 gaugeLimitsGauge\ Limits_Y=336
 gaugeLimitsGauge\ Limits_X=702
 LaunchControlLaunch\ Control\ /\ Flat\ shift_height=532

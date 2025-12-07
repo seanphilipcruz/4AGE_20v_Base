@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Dec 07 17:36:21 SGT 2025"/>
+<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Dec 07 23:59:59 PHT 2025"/>
 <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2025.01.6" nPages="15" signature="speeduino 202501"/>
 <page>
 <pcVariable digits="0" name="rpmhigh" units="rpm">9000.0</pcVariable>
@@ -446,7 +446,7 @@
          117.0 
          116.0 
          115.0 
-         115.0 
+         110.0 
          105.0 
          100.0 
       </constant>
@@ -465,7 +465,7 @@
 <constant digits="1" name="reqFuel" units="ms">9.0</constant>
 <constant digits="0" name="divider">2.0</constant>
 <constant name="alternate">"Alternating"</constant>
-<constant name="crkngAddCLTAdv">"No"</constant>
+<constant name="crkngAddCLTAdv">"Yes"</constant>
 <constant name="includeAFR">"No"</constant>
 <constant name="hardCutType">"Rolling"</constant>
 <constant name="ignAlgorithm">"TPS"</constant>
@@ -496,8 +496,8 @@
 <constant digits="0" name="flexFreqLow" units="Hz">50.0</constant>
 <constant digits="0" name="flexFreqHigh" units="Hz">150.0</constant>
 <constant digits="0" name="boostMaxDuty" units="%">80.0</constant>
-<constant digits="0" name="tpsMin" units="ADC">42.0</constant>
-<constant digits="0" name="tpsMax" units="ADC">183.0</constant>
+<constant digits="0" name="tpsMin" units="ADC">43.0</constant>
+<constant digits="0" name="tpsMax" units="ADC">185.0</constant>
 <constant digits="0" name="mapMin" units="kpa">1.0</constant>
 <constant digits="0" name="mapMax" units="kpa">315.0</constant>
 <constant digits="0" name="fpPrime" units="s">6.0</constant>
@@ -525,16 +525,16 @@
 <constant name="rtc_mode">"Off"</constant>
 <constant name="incorporateAFR">"No"</constant>
 <constant cols="1" digits="0" name="asePct" rows="4" units="%">
+         30.0 
          22.0 
-         16.0 
-         10.0 
          8.0 
+         3.0 
       </constant>
 <constant cols="1" digits="0" name="aseCount" rows="4" units="s">
-         10.0 
-         6.0 
+         8.0 
          5.0 
-         4.0 
+         3.0 
+         2.0 
       </constant>
 <constant cols="1" digits="0" name="aseBins" rows="4" units="C">
          15.0 
@@ -711,7 +711,7 @@
 <page number="3" size="128">
 <constant digits="0" name="TrigAng" units="Deg">115.0</constant>
 <constant digits="0" name="FixAng" units="Deg">10.0</constant>
-<constant digits="0" name="CrankAng" units="Deg">-6.0</constant>
+<constant digits="0" name="CrankAng" units="Deg">5.0</constant>
 <constant digits="0" name="TrigAngMul">0.0</constant>
 <constant name="TrigEdge">"RISING"</constant>
 <constant name="TrigSpeed">"Cam Speed"</constant>
@@ -862,12 +862,12 @@
          200.0 
       </constant>
 <constant cols="1" digits="0" name="idleAdvValues" rows="6" units="deg">
-         3.0 
-         -2.0 
+         8.0 
+         4.0 
          0.0 
-         1.0 
-         2.0 
-         3.0 
+         -2.0 
+         -4.0 
+         -8.0 
       </constant>
 <constant digits="0" name="engineProtectMaxRPM" units="rpm">2500.0</constant>
 <constant digits="0" name="vvt2CL0DutyAng" units="deg">0.0</constant>
@@ -1691,10 +1691,10 @@
          80.0 
       </constant>
 <constant cols="1" digits="0" name="crankingEnrichValues" rows="4" units="%">
-         150.0 
+         190.0 
+         160.0 
          120.0 
-         100.0 
-         100.0 
+         110.0 
       </constant>
 <constant name="rotaryType">"FC"</constant>
 <constant name="stagingEnabled">"Off"</constant>
