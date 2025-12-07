@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Mon Dec 01 15:32:59 SGT 2025
-#Mon Dec 01 15:32:59 SGT 2025
+#Last Saved on: Thu Dec 04 19:32:05 SGT 2025
+#Thu Dec 04 19:32:05 SGT 2025
 LaunchControlLaunch\ Control\ /\ Flat\ shift_Y=244
 LaunchControlLaunch\ Control\ /\ Flat\ shift_X=663
 prgm_out_configProgrammable\ outputs_width=417
@@ -11,6 +11,7 @@ injCharsInjector\ Characteristics_width=479
 prgm_out_configProgrammable\ outputs_Y=299
 prgm_out_configProgrammable\ outputs_X=631
 lastDisplayedTuneFile=Modified - PopsCrackles.msq
+CommSettingCM-WSW-042CommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 sparkMap3DIgnition\ Advance\ Table_Y=237
 sparkMap3DIgnition\ Advance\ Table_X=440
 iacClosedLoop_curve_showText=true
@@ -66,8 +67,10 @@ lambdaTable1TblLambda\ Table_height=383
 refTable_000_txtBiasResistor=2490.0
 knockSettingsKnock\ Settings_X=530
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
+CommSettingCM-WSW-042CommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
 veTable1Map3DVE\ Table_height=528
 iacClosedLoop_curveIdle\ RPM\ Targets_width=575
+CommSettingCM-WSW-042CommDriver.RS232\ Serial\ InterfaceCom\ Port=COM3
 fanSettingsFan\ Settings_height=372
 afrTable1Map3DAFR\ Table_width=800
 iacPwm_curveIAC\ PWM\ Duty_Y=297
@@ -139,13 +142,13 @@ boostSettingsBoost\ Control_width=332
 fanSettingsFan\ Settings_X=652
 idleUpSettingsIdle\ Up\ Settings_height=355
 idleSettingsIdle\ Settings_Y=144
-afrTable1TblAFR\ Table_height=497
+afrTable1TblAFR\ Table_height=641
 iacPwmCrank_curveIAC\ PWM\ Cranking\ Duty_height=373
 idleSettingsIdle\ Settings_X=664
 injCharsInjector\ Characteristics_height=724
 CommSettingMSCommDriver.controllerInterfaceId=RS232 Serial Interface
 refTable_001_txtBiasResistor=2490.0
-afrTable1TblAFR\ Table_width=698
+afrTable1TblAFR\ Table_width=1002
 iacClosedLoop_curveIdle\ RPM\ Targets_Y=350
 iacClosedLoop_curveIdle\ RPM\ Targets_X=615
 revLimiterDialogRev\ Limiter_width=276
@@ -201,6 +204,7 @@ dwell_correction_curveDwell\ voltage\ correction_X=661
 ecuSettings=AFR|CELSIUS|enablehardware_test_OFF|resetcontrol_standard|
 CommSettingSeans-MacBook-Pro.localCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
 warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_height=513
+CommSettingCM-WSW-042CommDriver.controllerInterfaceId=RS232 Serial Interface
 sparkTblIgnition\ Advance\ Table_Y=183
 sparkTblIgnition\ Advance\ Table_X=361
 baroFuel_curveBaro\ fuel\ correction_height=404
@@ -225,7 +229,7 @@ refTable_001_txtResistor2=2268.0
 revLimiterDialogRev\ Limiter_Y=243
 refTable_001_txtResistor1=101890.0
 revLimiterDialogRev\ Limiter_X=703
-CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/cu.usbmodem14101
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=COM3
 iacPwm_curveIAC\ PWM\ Duty_height=393
 iacPwm_curveIAC\ PWM\ Duty_width=550
 iacPwmCrank_curveIAC\ PWM\ Cranking\ Duty_Y=323
@@ -244,7 +248,7 @@ tachoTacho_X=697
 idle_advance_curve_showText=true
 canId=-1
 pressureSensorsPressure\ Transducers_width=442
-commPort=/dev/cu.usbmodem14101
+commPort=COM3
 ASEAfterstart\ Enrichment(ASE)_Y=25
 iacClosedLoop_curveIdle\ RPM\ Targets_height=394
 sensorFiltersAnalog\ sensor\ filters_height=489
