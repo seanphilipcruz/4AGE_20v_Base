@@ -147,7 +147,10 @@ iacPwmCrank_curveIAC\ PWM\ Cranking\ Duty_height=373
 idleSettingsIdle\ Settings_X=664
 injCharsInjector\ Characteristics_height=724
 refTable_001_txtBiasResistor=2490.0
+<<<<<<< Updated upstream
 CommSettingMSCommDriver.controllerInterfaceId=RS232 Serial Interface
+=======
+>>>>>>> Stashed changes
 afrTable1TblAFR\ Table_width=1002
 iacClosedLoop_curveIdle\ RPM\ Targets_Y=350
 iacClosedLoop_curveIdle\ RPM\ Targets_X=615
@@ -229,7 +232,11 @@ revLimiterDialogRev\ Limiter_Y=243
 refTable_001_txtResistor2=2268.0
 revLimiterDialogRev\ Limiter_X=703
 refTable_001_txtResistor1=101890.0
+<<<<<<< Updated upstream
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=COM3
+=======
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/cu.usbmodem14101
+>>>>>>> Stashed changes
 iacPwm_curveIAC\ PWM\ Duty_height=393
 iacPwm_curveIAC\ PWM\ Duty_width=550
 gaugeLimitsGauge\ Limits_width=276
@@ -248,7 +255,11 @@ tachoTacho_X=697
 idle_advance_curve_showText=true
 canId=-1
 pressureSensorsPressure\ Transducers_width=442
+<<<<<<< Updated upstream
 commPort=COM3
+=======
+commPort=/dev/cu.usbmodem14101
+>>>>>>> Stashed changes
 sensorFiltersAnalog\ sensor\ filters_height=489
 iacClosedLoop_curveIdle\ RPM\ Targets_height=394
 ASEAfterstart\ Enrichment(ASE)_Y=25
