@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Dec 08 06:42:37 SGT 2025"/>
+<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Dec 08 10:33:19 SGT 2025"/>
 <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2025.01.6" nPages="15" signature="speeduino 202501"/>
 <page>
 <pcVariable digits="0" name="rpmhigh" units="rpm">9000.0</pcVariable>
