@@ -1,11 +1,11 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Fri Dec 12 06:20:58 SGT 2025
-#Fri Dec 12 06:20:58 SGT 2025
+#Last Saved on: Fri Dec 12 16:25:14 SGT 2025
+#Fri Dec 12 16:25:14 SGT 2025
 LaunchControlLaunch\ Control\ /\ Flat\ shift_Y=244
 LaunchControlLaunch\ Control\ /\ Flat\ shift_X=663
 prgm_out_configProgrammable\ outputs_width=417
-mapCalCalibrate\ MAP_width=404
+mapCalCalibrate\ MAP_width=377
 CommSettingSeans-MacBook-Pro.localCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 injCharsInjector\ Characteristics_width=479
 prgm_out_configProgrammable\ outputs_Y=299
@@ -23,13 +23,13 @@ egoControlAFR/O2_X=641
 wmiSettingsWMI\ Control_Y=61
 wmiSettingsWMI\ Control_X=596
 egoControlAFR/O2_height=549
-fuelpumpFuel\ pump_width=276
+fuelpumpFuel\ pump_width=275
 fuelTable2DialogFuel\ Table\ 2_width=561
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
 wmiSettingsWMI\ Control_height=876
 sparkSettingsSpark\ Settings_height=497
-warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_Y=198
-warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_X=158
+warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_Y=164
+warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_X=393
 veTableDialogVE\ Table_width=822
 injector_timing_curve_Set\ X\ Axis\ Minimum=0.0
 engine_constantsEngine\ Constants_Y=202
@@ -106,7 +106,7 @@ refTable_001_txtTemp2=30.0
 refTable_001_txtTemp1=-40.0
 tuneFileDir=C\:\\Users\\sean.cruz\\Documents\\TunerStudioProjects\\4AGE20v_Base
 refTable_000_chkCelsius=true
-fuelpumpFuel\ pump_height=191
+fuelpumpFuel\ pump_height=225
 fuelTable2DialogFuel\ Table\ 2_height=653
 knockSettingsKnock\ Settings_width=620
 iat_retard_curveIAT\ timing\ retard_width=358
@@ -164,7 +164,7 @@ io_summaryI/O\ Summary_Y=118
 io_summaryI/O\ Summary_X=680
 injector_timing_curve_showText=true
 dwellSettingsDwell\ Settings_width=351
-LaunchControlLaunch\ Control\ /\ Flat\ shift_width=353
+LaunchControlLaunch\ Control\ /\ Flat\ shift_width=323
 clt_advance_curveCold\ Advance_Y=374
 time_accel_tpsdot_curve_showText=true
 clt_advance_curveCold\ Advance_X=468
@@ -172,7 +172,7 @@ engineProtectionHard\ Limit\ Configuration_width=351
 iacPwm_curve_showText=true
 iacPwmCrank_curveIAC\ PWM\ Cranking\ Duty_width=560
 gaugeLimitsGauge\ Limits_height=328
-mapCalCalibrate\ MAP_height=530
+mapCalCalibrate\ MAP_height=562
 mapCalCalibrate\ MAP_Y=234
 mapCalCalibrate\ MAP_X=638
 clt_advance_curveCold\ Advance_width=605
@@ -254,7 +254,7 @@ iacClosedLoop_curveIdle\ RPM\ Targets_height=394
 sensorFiltersAnalog\ sensor\ filters_height=472
 ASEAfterstart\ Enrichment(ASE)_X=537
 baudRate=115200
-warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_width=810
+warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_width=829
 refTable_000_chkFahrenheit=false
 afrTable1TblAFR\ Table_Y=167
 afrTable1TblAFR\ Table_X=329
@@ -263,5 +263,5 @@ projectName=4AGE20v_Base
 baroFuel_curve_showText=true
 warmup_curve_showText=true
 gaugeLimitsGauge\ Limits_Y=336
-LaunchControlLaunch\ Control\ /\ Flat\ shift_height=532
+LaunchControlLaunch\ Control\ /\ Flat\ shift_height=557
 gaugeLimitsGauge\ Limits_X=702

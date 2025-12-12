@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Dec 12 08:45:40 SGT 2025"/>
+<bibliography author="TunerStudio MS Lite! 3.3.01 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Dec 12 17:02:04 SGT 2025"/>
 <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2025.01.6" nPages="15" signature="speeduino 202501"/>
 <page>
 <pcVariable digits="0" name="rpmhigh" units="rpm">9000.0</pcVariable>
@@ -440,11 +440,11 @@
 <constant name="multiplyMAP">"Fixed"</constant>
 <constant cols="1" digits="0" name="wueRates" rows="10" units="%">
          150.0 
-         142.0 
-         135.0 
-         128.0 
+         140.0 
+         130.0 
          120.0 
-         114.0 
+         115.0 
+         112.0 
          108.0 
          103.0 
          100.0 
@@ -878,7 +878,7 @@
 <constant name="unusedBits4_123">"0"</constant>
 <constant digits="0" name="ANGLEFILTER_VVT" units="%">0.0</constant>
 <constant digits="0" name="FILTER_FLEX" units="%">0.0</constant>
-<constant digits="0" name="vvtMinClt" units="C">85.0</constant>
+<constant digits="0" name="vvtMinClt" units="C">70.0</constant>
 <constant digits="0" name="vvtDelay" units="S">0.0</constant>
 </page>
 <page number="4" size="288">
@@ -1170,11 +1170,11 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 100.0 100.0 100.0 0.0 0.0 
-         0.0 0.0 0.0 100.0 100.0 100.0 0.0 0.0 
-         0.0 0.0 0.0 100.0 100.0 100.0 0.0 0.0 
-         0.0 0.0 0.0 100.0 100.0 100.0 0.0 0.0 
-         0.0 0.0 0.0 100.0 100.0 100.0 0.0 0.0 
+         0.0 0.0 0.0 40.0 50.0 50.0 45.0 40.0 
+         0.0 0.0 0.0 40.0 50.0 50.0 45.0 40.0 
+         0.0 0.0 0.0 40.0 50.0 50.0 45.0 40.0 
+         0.0 0.0 0.0 40.0 50.0 50.0 45.0 40.0 
+         0.0 0.0 0.0 40.0 50.0 50.0 45.0 40.0 
       </constant>
 <constant cols="1" digits="0" name="rpmBinsVVT" rows="8" units="RPM">
          500.0 
